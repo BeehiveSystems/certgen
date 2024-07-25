@@ -16,6 +16,6 @@ CertGen is a Docker container that simplifies the process of generating self-sig
    ./build_image.sh
    ```
 3. Run the image (replace the sample values):
-  ```sh
-  docker run -v ./output:/output -e DOMAIN=domain.com -e ORG_NAME="Your Org" -e COUNTRY=US -e STATE=FL -e CITY=Miami
-  ```
+   ```sh
+   docker run -v ./output:/output -e DOMAIN=domain.com -e ORG_NAME="Your Org" -e COUNTRY=US -e STATE=FL -e CITY=Miami
+   ```
